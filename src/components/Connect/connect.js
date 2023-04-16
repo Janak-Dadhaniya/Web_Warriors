@@ -4,7 +4,7 @@ import  emailjs  from '@emailjs/browser';
 // import Form_popup from '../form_popup/Form_popup'
 const Connect = () => {
   const form = useRef(null);
-  const scriptUrl = "https://script.google.com/macros/s/AKfycbwOOex6eJWyjroDWlmndNa5P4Onb567y44VPUmPHPQsYVrEpwRYHEbaBGXqhxMdc9x_/exec"
+  const scriptUrl = ""
   const [loading, setloading] = useState(false)
   const sendEmail = (e)=>{
     SendEmail(e);
